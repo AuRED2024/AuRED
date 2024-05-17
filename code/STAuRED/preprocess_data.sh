@@ -27,7 +27,6 @@ do
 done
 
 #For AURED*, we just need the test set for prediction
-data_dir='/data'
 data_output='processed_AuRED/AuRED_star'
 split='test'
 for fold in 1 2 3 4 5
