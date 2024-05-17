@@ -1,8 +1,8 @@
 # Authority-Rumor-Evidence Dataset (AuRED)
 
 ## Content of this repository
-## Rumors
-
+## Data
+# Rumors
 We provide AuRED and AuRED* data in JSON format files. Each file contains a list of JSON objects representing rumors. For each rumor, we provide the following entries:
 ```
 {
