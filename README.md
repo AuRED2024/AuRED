@@ -58,7 +58,7 @@ Examples:
 
 ```
 
-## Authorities tweets media
+### Authorities tweets media
 We provide the videos and images extracted from the authorities tweets.
 
 ## Rumors folds
