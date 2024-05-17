@@ -197,7 +197,7 @@ for fold in folds:
  for learning_rate in learning_rates: 
    model = BertForSequenceClassification.from_pretrained(previous_model, num_labels=3)
    model.to(device)   
-   output_dir="models/MARBERTv2_AuRED_fold%s_%s"%(fold,learning_rate)
+   output_dir="models/MARBERTv2_AuRED_stance_fold%s_%s"%(fold,learning_rate)
    param_optimizer = list(model.named_parameters())
    pretrained = model.bert.parameters()
    # Get names of pretrained parameters (including `bert.` prefix)
