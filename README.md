@@ -64,6 +64,8 @@ We provide the videos and images extracted from the authorities tweets.
 ## Rumors folds
 We provide the rumors 5 folds used in our experiments. Each fold file containing 32 rumors.
 
+## Annotation Guidelines for Evidence Extraction
+
 ## Benchmarks code
 
 
