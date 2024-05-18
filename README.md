@@ -61,7 +61,7 @@ Examples:
 ### Authorities tweets media
 We provide the videos and images extracted from the authorities tweets.
 
-### qrels
+### Relevance judgments (qrels)
 We provide the [relevance judgments](https://github.com/AuRED2024/AuRED/tree/main/data/qrels) for both AuRED and AuRED* to be used for scoring the evidence retrieval models.
 
 ## Rumors folds
