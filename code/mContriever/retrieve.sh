@@ -1,3 +1,3 @@
 python dense_retrieval.py --infile /data/AuRED.json \
- --outfile ./output/mcontriever-Top5.txt \
+ --outfile mcontriever-Top5.txt \
  --model "facebook/mcontriever-msmarco"
