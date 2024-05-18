@@ -9,4 +9,10 @@
 
 3. To retrieve evidence for the dev sets using the fine-tuned models run the below:
   >bash predict_stance_dev.sh<\br>
+
+4. Evaluate the evidence retrieval on the dev sets by running the below:
+   >bash evaluate_dev <\br>
+**For each fold check the learning rate achieving the best MAP**
+5. Use the best model (based on best MAP in orevious step) to predict the stance of the test set:
+ >bash predict_stance_test.sh</br>
  
