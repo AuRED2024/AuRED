@@ -72,5 +72,6 @@ We provide the rumors 5 folds used in our experiments. Each fold file containing
 ## Benchmarks code
 ### Evaluation
 We provide the [evaluation scorers](https://github.com/AuRED2024/AuRED/tree/main/code/evaluation) for both the evidence retrieval and the rumor verification models.
+To run the scorer you need to install [Pyterrier](https://pyterrier.readthedocs.io/en/latest/)
 
 
