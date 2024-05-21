@@ -1,4 +1,4 @@
-#This is to be done to all folds based on best LR on dev set 
+#This is to be done to all folds based on best learning rate on dev set 
 fold=5 #[1,2,3,4,5]
 epochs_num=5
 lr=5e-5 #[2e-5,2e-5,4e-5,2e-5,5e-5]
