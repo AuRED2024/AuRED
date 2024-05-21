@@ -7,7 +7,7 @@ lr=5e-5 #[2e-5,2e-5,4e-5,2e-5,5e-5]
     
 python test.py  --outdir ./output/CV_experiments/verification_data \
     --trec_outdir ./trec_output/CV_experiments/ \
-    --test_path ../data/testing_format/AuRED*/all_AuRED_test_fold${fold}.json \
+    --test_path ../data/testing_format/AuRED_data/all_AuRED_test_fold${fold}.json \
     --bert_pretrain ../MARBERTv2_base \
     --checkpoint ../checkpoint/retrieval_model/CV_experiments/model.best_lr${lr}_${epochs_num}epochs_fold${fold}.pt \
     --name test_lr${lr}_${epochs_num}epochs_fold${fold}_GoldSet.json \
